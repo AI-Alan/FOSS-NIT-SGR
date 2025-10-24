@@ -11,7 +11,7 @@ export const eventCategories: eventCategoryCard[] = [
     id: 1,
     title: "Workshops",
     description: "Hands-on learning sessions on various technologies and tools.",
-    img: "/events/workshops.png", // placeholder image
+    img: "/events/workshopslego.png", // placeholder image
     url: "/events/workshops",
   },
   {
