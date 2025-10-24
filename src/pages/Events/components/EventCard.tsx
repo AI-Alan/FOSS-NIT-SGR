@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Aos from "aos";
 import "aos/dist/aos.css";
 // --- NEW: Import the EventDetail type ---
 import { EventDetail } from "../../../constants/types/event-details";
@@ -11,13 +10,13 @@ interface EventCardProps {
 }
 
 export default function EventCard({ event, index }: EventCardProps) {
-  
+
   // --- NEW: Logic moved from EventPageLayout ---
   const { eventname, startTime, endTime, venue, cardImage, link } = event;
   const time = startTime && endTime ? `${startTime} - ${endTime}` : (startTime || "Time TBD");
   const venueDisplay = venue || "Venue TBD";
   const image = cardImage ? `/events/${cardImage}` : "/events/meme.jpg";
-  
+
   return (
     <>
       <Link

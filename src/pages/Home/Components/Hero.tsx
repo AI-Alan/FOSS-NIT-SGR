@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import Header from "../../../Components/Navbar/resizeableNavbar";
-import Aos from "aos";
 import "aos/dist/aos.css";
 
 type TimeLeft = {
@@ -55,7 +54,7 @@ function Hero() {
       setScrambledText((prev) =>
         prev
           .split("")
-          .map((letter, index) => {
+          .map((_letter, index) => {
             if (index < iteration) {
               return originalText[index];
             }
