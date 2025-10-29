@@ -94,7 +94,7 @@ function Hero() {
           data-aos-duration="2000"
           data-aos-anchor-placement="top-bottom"
           data-aos-once="true"
-          className="text-white text-xl ss:text-2xl md:text-4xl text-center overflow-visible xs:whitespace-wrap"
+          className="text-white text-xl ss:text-2xl md:text-4xl text-center overflow-visible xs:whitespace-wrap font-kodeMono"
         >
           1<sup className="text-white text-xl md:text-2xl">st </sup>
           Nov 2025
