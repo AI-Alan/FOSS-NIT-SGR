@@ -17,7 +17,7 @@ const Header = () => {
       >
         <div className="flex flex-row justify-between items-center container mx-auto ">
           <Link to="/">
-            <img src="foss_nit_logo.jpeg" className="h-16 w-16" alt="Logo" />
+            <img src="logo.png" className="h-16 w-16" alt="Logo" />
           </Link>
 
           {/* Hamburger Button */}
